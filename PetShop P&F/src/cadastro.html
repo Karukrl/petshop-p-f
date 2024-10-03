@@ -16,19 +16,20 @@
             <img src="/src/imagens/logodog.png" alt="logo dog" class="imagem">
             <span class="titulo">PetShop P&F</span>
         </a>
+
         <nav class="navegacao">
             <ul class="menu">
                 <li class="item"><a href="./cadastro.html">Cadastre-se</a></li>
-                <li class="item"><a href="#sobren">Sobre</a></li>
+                <li class="item"><a href="./principal.html#sobre">Sobre</a></li>
                 <li class="item"><a href="./catalogo.html">Produtos</a></li>
-                <li class="item"><a href="#Contato">Contato</a></li>
+                <li class="item"><a href="./contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="container mt-5">
         <h2 class="titulo">Cadastro de Tutor e Pet</h2>
-        <form id="cadastroForm">
+        <form class="cadastroForm">
             <div class="mb-3">
                 <label for="tutorNome" class="form-label">Nome do Tutor</label>
                 <input type="text" class="form-control" id="tutorNome" placeholder="Digite seu nome completo" required>
@@ -65,13 +66,9 @@
                 <label for="petIdade" class="form-label">Idade do Pet (anos)</label>
                 <input type="number" class="form-control" id="petIdade" placeholder="Digite a idade do seu Pet" required>
             </div>
-            <button type="submit" class="btn btn-primary">Cadastrar</button>
+            <button type="submit">Enviar</button>
         </form>
     </main>
-
-    <footer class="rodape">
-        <p class="copyright">Todos os direitos Reservados &copy; 2024</p>
-    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
