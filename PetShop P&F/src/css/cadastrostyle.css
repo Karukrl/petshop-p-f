@@ -1,0 +1,101 @@
+/* styles/cadastrostyle.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: "Public Sans", sans-serif;
+    background-color: #ffffff; /* Cor de fundo leve */
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: rgb(254, 246, 201);;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo .imagem {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.navegacao .menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navegacao .item {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navegacao .item a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navegacao .item a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(254, 246, 201);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.titulo {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #000000;
+}
+
+.form-control, .form-select {
+    border: 1px solid #4CAF50;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #388E3C;
+    box-shadow: 0 0 5px rgba(56, 142, 60, 0.5);
+}
+
+.btn-primary {
+    background-color: #000000;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #000000;
+}
+
+.rodape {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffffff;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.copyright {
+    margin: 0;
+}
